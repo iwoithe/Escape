@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect width="512" height="512" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+    <image width="10" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAYAAAAvf+5AAAAAbUlEQVQokY2R2w7AIAhDTxf//5e7F0kAda6JCWC5FZFg29mXJDomqbycqCBJohUkYpL0ZFLulGO2/bT2WxugEK+IRfJCLcbYJP2rykGehRTo5CLPbowiz9dc8Tfinss8E9d7nxKLll3DE3mxAV4by6CcTQBMQQAAAABJRU5ErkJggg==" id="img_1" />
+  </defs>
+  <g id="Icon" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#000000" fill-opacity="0" />
+    <path d="M32 15.9999L480 15.9999L480 31.9999L32 31.9999L32 15.9999Z" id="Rectangle-Copy" fill="#FFFFFF" fill-rule="evenodd" stroke="none" artboard="6f1cac78-6927-4ce0-952c-8be58d19d5dd" />
+    <path d="M16 32L32 32L32 480L16 480L16 32Z" id="Rectangle-Copy-2" fill="#FFFFFF" fill-rule="evenodd" stroke="none" artboard="08fa9e61-4f64-4dc2-b9cf-0e9b65057825" />
+    <path d="M32 32L480 32L480 480L32 480L32 32Z" id="Rectangle-4" fill="#000000" fill-rule="evenodd" stroke="none" artboard="4c0291d1-465e-4c16-8f64-623951efc818" />
+    <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(16 0 0 16 176 128)" artboard="88d8c22f-a368-46d4-8f76-8754abc4c133" />
+    <path d="M32 480L480 480L480 496L32 496L32 480Z" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" artboard="c119e024-6449-4427-a09a-f2b349369a63" />
+    <path d="M480 32L496 32L496 480L480 480L480 32Z" id="Rectangle-Copy-3" fill="#FFFFFF" fill-rule="evenodd" stroke="none" artboard="431c98bb-bd12-4195-8ecc-7630dc13703e" />
+  </g>
+</svg>

@@ -1,0 +1,145 @@
+[gd_scene load_steps=10 format=3 uid="uid://b8o6v74rcc5su"]
+
+[ext_resource type="Script" path="res://player/player.gd" id="1_ajusn"]
+[ext_resource type="Texture2D" uid="uid://j1ayksa1xkg3" path="res://assets/player.png" id="2_752cb"]
+[ext_resource type="Texture2D" uid="uid://bllcov1ye6bjw" path="res://assets/heart.png" id="3_lm4un"]
+[ext_resource type="Texture2D" uid="uid://d1mc6uefx4m64" path="res://assets/torch.png" id="4_xuljy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ejctq"]
+size = Vector2(10, 14)
+
+[sub_resource type="Animation" id="Animation_uusre"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_f56ve"]
+resource_name = "Walk"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.261799, 0.0, -0.261799, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bl27h"]
+_data = {
+"RESET": SubResource("Animation_uusre"),
+"Walk": SubResource("Animation_f56ve")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hdt5t"]
+radius = 100.0
+
+[node name="Player" type="CharacterBody2D" groups=["player"]]
+texture_filter = 1
+motion_mode = 1
+script = ExtResource("1_ajusn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ejctq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_752cb")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2(2, 2)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_bl27h")
+}
+
+[node name="Light Area" type="Area2D" parent="."]
+
+[node name="LightCollision" type="CollisionShape2D" parent="Light Area"]
+shape = SubResource("CircleShape2D_hdt5t")
+
+[node name="HUDLayer" type="CanvasLayer" parent="."]
+
+[node name="HUDRoot" type="Control" parent="HUDLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TorchIcon" type="TextureRect" parent="HUDLayer/HUDRoot"]
+unique_name_in_owner = true
+texture_filter = 1
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 52.0
+offset_bottom = 52.0
+texture = ExtResource("4_xuljy")
+stretch_mode = 5
+
+[node name="Hearts" type="HBoxContainer" parent="HUDLayer/HUDRoot"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -76.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 60.0
+grow_horizontal = 0
+
+[node name="Heart1" type="TextureRect" parent="HUDLayer/HUDRoot/Hearts"]
+unique_name_in_owner = true
+texture_filter = 1
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+offset_right = 32.0
+offset_bottom = 40.0
+texture = ExtResource("3_lm4un")
+stretch_mode = 5
+
+[node name="Heart2" type="TextureRect" parent="HUDLayer/HUDRoot/Hearts"]
+unique_name_in_owner = true
+texture_filter = 1
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+offset_left = 36.0
+offset_right = 68.0
+offset_bottom = 40.0
+size_flags_horizontal = 8
+texture = ExtResource("3_lm4un")
+stretch_mode = 5
+
+[node name="Heart3" type="TextureRect" parent="HUDLayer/HUDRoot/Hearts"]
+unique_name_in_owner = true
+texture_filter = 1
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+offset_left = 72.0
+offset_right = 104.0
+offset_bottom = 40.0
+size_flags_horizontal = 8
+texture = ExtResource("3_lm4un")
+stretch_mode = 5
+
+[connection signal="body_entered" from="Light Area" to="." method="_on_body_entered_into_light"]
+[connection signal="body_exited" from="Light Area" to="." method="_on_body_exited_from_light"]

@@ -1,0 +1,71 @@
+[gd_scene load_steps=3 format=3 uid="uid://csbfkbqpy8rbs"]
+
+[ext_resource type="Script" path="res://ui/credits/credits.gd" id="1_wq068"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xe4hm"]
+font_size = 32
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wq068")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(600, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+offset_right = 628.0
+offset_bottom = 43.0
+text = "Credits"
+label_settings = SubResource("LabelSettings_xe4hm")
+horizontal_alignment = 1
+
+[node name="ContentLabel" type="Label" parent="VBoxContainer"]
+offset_top = 47.0
+offset_right = 628.0
+offset_bottom = 438.0
+text = "Code and art created by Ilias Woithe
+
+Font:
+Kenney Mini Square
+
+Background music:
+\"Ghost Waltz\" by soulprodmusic
+
+SFX:
+\"Pickup 2\" ...
+\"Unlock\" ...
+
+Links (in order):
+...
+https://pixabay.com/music/scary-childrens-tunes-ghost-waltz-120538/
+...
+..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackToMainMenuButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(256, 0)
+offset_left = 186.0
+offset_top = 442.0
+offset_right = 442.0
+offset_bottom = 468.0
+size_flags_horizontal = 4
+text = "Back To Main Menu"
+
+[connection signal="pressed" from="VBoxContainer/BackToMainMenuButton" to="." method="_on_back_to_main_menu"]

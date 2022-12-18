@@ -1,0 +1,67 @@
+[gd_scene load_steps=3 format=3 uid="uid://smvvbx33sngi"]
+
+[ext_resource type="Script" path="res://ui/mainmenu/mainmenu.gd" id="1_v4c6s"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mv757"]
+font_size = 32
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v4c6s")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(200, 400)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+offset_top = 118.0
+offset_right = 200.0
+offset_bottom = 161.0
+text = "Escape"
+label_settings = SubResource("LabelSettings_mv757")
+horizontal_alignment = 1
+
+[node name="PlayButton" type="Button" parent="VBoxContainer"]
+offset_top = 165.0
+offset_right = 200.0
+offset_bottom = 191.0
+text = "Play"
+
+[node name="HowToPlayButton" type="Button" parent="VBoxContainer"]
+offset_top = 195.0
+offset_right = 200.0
+offset_bottom = 221.0
+text = "How To Play"
+
+[node name="CreditsButton" type="Button" parent="VBoxContainer"]
+offset_top = 225.0
+offset_right = 200.0
+offset_bottom = 251.0
+text = "Credits"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+offset_top = 255.0
+offset_right = 200.0
+offset_bottom = 281.0
+text = "Quit"
+
+[connection signal="pressed" from="VBoxContainer/PlayButton" to="." method="_play_game"]
+[connection signal="pressed" from="VBoxContainer/HowToPlayButton" to="." method="_how_to_play"]
+[connection signal="pressed" from="VBoxContainer/CreditsButton" to="." method="_on_credits"]
+[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_quit"]

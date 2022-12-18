@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://buhp1pd0kussb"]
+
+[ext_resource type="PackedScene" uid="uid://bqk8iwqvq0x0t" path="res://levels/leveltemplate.tscn" id="1_w2elr"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_ddag7"]
+vertices = PackedVector2Array(912, 376, 272, 376, 280, -24, 768, 184, 912, -24, 912, 8, 768, 136, 1040, 8, 1040, -24, 1216, -24, 1168, 120, 1216, 184, 1168, 184, 1040, 120, 1040, 88, 912, 88, 912, 136, 912, 184)
+polygons = [PackedInt32Array(0, 1, 2, 3), PackedInt32Array(2, 4, 5, 6), PackedInt32Array(7, 8, 9, 10), PackedInt32Array(9, 11, 12, 10), PackedInt32Array(10, 13, 14), PackedInt32Array(7, 10, 14, 5), PackedInt32Array(5, 14, 15), PackedInt32Array(15, 16, 6), PackedInt32Array(3, 17, 0), PackedInt32Array(6, 3, 2), PackedInt32Array(6, 5, 15)]
+outlines = [PackedVector2Array(912, 376, 912, 184, 768, 184, 768, 136, 912, 136, 912, 88, 1040, 88, 1040, 120, 1168, 120, 1168, 184, 1216, 184, 1216, -24, 1040, -24, 1040, 8, 912, 8, 912, -24, 280, -24, 272, 376)]
+
+[node name="Level1" instance=ExtResource("1_w2elr")]
+
+[node name="NavigationRegion2D" parent="." index="3"]
+position = Vector2(0, -8)
+navpoly = SubResource("NavigationPolygon_ddag7")
+
+[connection signal="body_entered" from="TileMap/Key" to="TileMap/Key" method="_on_body_entered"]
+[connection signal="body_entered" from="TileMap/Exit" to="TileMap/Exit" method="_on_body_entered"]

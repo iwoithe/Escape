@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://34dlfs76gsbt"]
+
+[ext_resource type="Script" path="res://global/backgroundmusic.gd" id="1_y5oww"]
+[ext_resource type="AudioStream" uid="uid://w0u0m3egv5tx" path="res://assets/ghost-waltz.mp3" id="2_yulkg"]
+
+[node name="BackgroundMusic" type="Node"]
+script = ExtResource("1_y5oww")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_yulkg")
+volume_db = -15.0

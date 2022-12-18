@@ -1,0 +1,30 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bvu3d8bgltilm"]
+
+[ext_resource type="Texture2D" uid="uid://cxaep8ttrl4cu" path="res://assets/button_normal.png" id="1_54220"]
+[ext_resource type="Texture2D" uid="uid://cqsb3o0ar78ov" path="res://assets/button_hover_and_press.png" id="2_6tw4o"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7p2nx"]
+texture = ExtResource("1_54220")
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 3.0
+margin_bottom = 3.0
+region_rect = Rect2(0, 0, 9, 9)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g431t"]
+texture = ExtResource("2_6tw4o")
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 3.0
+margin_bottom = 3.0
+region_rect = Rect2(0, 0, 9, 9)
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/styles/disabled = SubResource("StyleBoxTexture_7p2nx")
+Button/styles/focus = SubResource("StyleBoxTexture_g431t")
+Button/styles/hover = SubResource("StyleBoxTexture_g431t")
+Button/styles/normal = SubResource("StyleBoxTexture_7p2nx")
+Button/styles/pressed = SubResource("StyleBoxTexture_g431t")

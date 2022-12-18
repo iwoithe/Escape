@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbk5n4mdgcmd8"]
+
+[ext_resource type="Script" path="res://tiles/ghostspawner.gd" id="1_qtso8"]
+
+[node name="Ghost Spawner" type="Marker2D"]
+script = ExtResource("1_qtso8")

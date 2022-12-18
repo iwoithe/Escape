@@ -1,0 +1,18 @@
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://4obad7xkx1vr"]
+
+[ext_resource type="PackedScene" uid="uid://b5ht1100i65y" path="res://tiles/wall.tscn" id="1_1d6k7"]
+[ext_resource type="PackedScene" uid="uid://bbk5n4mdgcmd8" path="res://tiles/ghostspawner.tscn" id="2_iuufx"]
+[ext_resource type="PackedScene" uid="uid://c4k8pjrukfba4" path="res://tiles/exit.tscn" id="3_rrda6"]
+[ext_resource type="PackedScene" uid="uid://b8sky5rnfk5j2" path="res://key/key.tscn" id="4_12nc7"]
+[ext_resource type="PackedScene" uid="uid://cuo6mtc26paq" path="res://tiles/lock.tscn" id="5_ih8sl"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_27pja"]
+resource_name = "Scenes"
+scenes/1/scene = ExtResource("1_1d6k7")
+scenes/2/scene = ExtResource("2_iuufx")
+scenes/3/scene = ExtResource("3_rrda6")
+scenes/4/scene = ExtResource("4_12nc7")
+scenes/5/scene = ExtResource("5_ih8sl")
+
+[resource]
+sources/1 = SubResource("TileSetScenesCollectionSource_27pja")
