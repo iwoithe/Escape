@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="630px" height="500px" viewBox="0 0 630 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="0" y1="500" x2="630" y2="0" id="gradient_1">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#191919" />
+    </linearGradient>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 -0.92 0 1 0 0 -0.92 0 0 1 0 -0.92 0 0 0 1 0" />
+    </filter>
+    <rect width="630" height="500" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+    <image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVQ4je1Tyw7AIAhrzf7/l7uLGK34OO6wnqDYCgkQBklyrgdJDrmLrT5B0mDCriCSODSAeBMmJRNnXQRXxW3Usvspix1PRvoYu7GWHdziN/isAclpkVbLNN1CjZtwlftVNpP+nE85ALxHoE4PeauRCwAAAABJRU5ErkJggg==" id="img_1" />
+    <image width="10" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAYAAAAvf+5AAAAAbUlEQVQokY2R2w7AIAhDTxf//5e7F0kAda6JCWC5FZFg29mXJDomqbycqCBJohUkYpL0ZFLulGO2/bT2WxugEK+IRfJCLcbYJP2rykGehRTo5CLPbowiz9dc8Tfinss8E9d7nxKLll3DE3mxAV4by6CcTQBMQQAAAABJRU5ErkJggg==" id="img_2" />
+  </defs>
+  <g id="banner" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#000000" />
+    <path d="M0 3.05176e-05L630 3.05176e-05L630 500L0 500L0 3.05176e-05Z" id="Rectangle" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" artboard="b04cc016-ef1b-4acd-a74d-0c2e636174d5" />
+    <g id="Group" transform="matrix(0.9945223 -0.10452841 0.10452841 0.9945223 -58.503567 6.2839346)" artboard="f414acdf-171d-4f45-8ed0-942a4320e5bd">
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="scale(4 4)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 0 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 0 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 0 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 0 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 0 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 0 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 80 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 160 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 240 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 320 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 400 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 480 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 560 480)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 0)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 80)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 160)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 240)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 320)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 400)" filter="url(#filter_1)" />
+      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(4 0 0 4 640 480)" filter="url(#filter_1)" />
+    </g>
+    <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="matrix(8 0 0 8 -64 186)" artboard="e3f88554-e9a8-4e6b-b981-90443f2b4813" />
+    <g id="Escape" fill="#FFFFFF" transform="translate(80 190)" artboard="0994f9bd-988f-4598-9ebe-b51e2b7fc25d">
+      <path d="M0 33.6094L0 93.6094L48 93.6094L48 81.6094L12 81.6094L12 69.6094L48 69.6094L48 57.6094L12 57.6094L12 45.6094L48 45.6094L48 33.6094L0 33.6094ZM60 81.6094L60 93.6094L108 93.6094L108 57.6094L72 57.6094L72 45.6094L108 45.6094L108 33.6094L60 33.6094L60 69.6094L96 69.6094L96 81.6094L60 81.6094ZM120 93.6094L120 33.6094L168 33.6094L168 45.6094L132 45.6094L132 81.6094L168 81.6094L168 93.6094L120 93.6094ZM180 33.6094L180 93.6094L192 93.6094L192 69.6094L216 69.6094L216 93.6094L228 93.6094L228 33.6094L180 33.6094ZM240 93.6094L240 33.6094L288 33.6094L288 69.6094L252 69.6094L252 93.6094L240 93.6094ZM300 33.6094L300 93.6094L348 93.6094L348 81.6094L312 81.6094L312 69.6094L348 69.6094L348 57.6094L312 57.6094L312 45.6094L348 45.6094L348 33.6094L300 33.6094ZM216 45.6094L216 57.6094L192 57.6094L192 45.6094L216 45.6094ZM276 57.6094L276 45.6094L252 45.6094L252 57.6094L276 57.6094Z" />
+    </g>
+    <use xlink:href="#img_2" fill="#FFFFFF" stroke="none" transform="matrix(16 0 0 16 456 122)" artboard="e8249171-22e7-47c4-a8c8-6f9417ed570d" />
+  </g>
+</svg>
