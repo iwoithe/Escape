@@ -16,6 +16,7 @@ script = ExtResource("1_wq068")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 custom_minimum_size = Vector2(600, 0)
+layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -29,6 +30,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="TitleLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
 offset_right = 628.0
 offset_bottom = 43.0
 text = "Credits"
@@ -36,35 +38,38 @@ label_settings = SubResource("LabelSettings_xe4hm")
 horizontal_alignment = 1
 
 [node name="ContentLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
 offset_top = 47.0
 offset_right = 628.0
-offset_bottom = 438.0
-text = "Code and art created by Ilias Woithe
+offset_bottom = 461.0
+text = "Created for the Godot Wild Jam #52 with theme \"Ghosts\"
+\"Guiding Light - Find Your Way In The Dark\" wildcard used
 
-Font:
-Kenney Mini Square
+Code and art created by Ilias Woithe
 
-Background music:
-\"Ghost Waltz\" by soulprodmusic
+Background music: \"Ghost Waltz\" by soulprodmusic
+
+Font: Kenney Mini Square
 
 SFX:
-\"Pickup 2\" ...
-\"Unlock\" ...
+\"coin 2\" by soundninja
+\"double door lock\" by DesignDean
 
 Links (in order):
-...
 https://pixabay.com/music/scary-childrens-tunes-ghost-waltz-120538/
-...
-..."
+https://kenney.nl/assets/kenney-fonts
+https://pixabay.com/sound-effects/coin-2-89099/
+https://pixabay.com/sound-effects/double-door-lock-101210/"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="BackToMainMenuButton" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(256, 0)
+layout_mode = 2
 offset_left = 186.0
-offset_top = 442.0
+offset_top = 465.0
 offset_right = 442.0
-offset_bottom = 468.0
+offset_bottom = 491.0
 size_flags_horizontal = 4
 text = "Back To Main Menu"
 
